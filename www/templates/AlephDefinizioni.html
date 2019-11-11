@@ -1,0 +1,28 @@
+<!--<ion-view title="א - Aleph definizioni" id="page6">
+  <ion-content padding="true" class="has-header">
+    <h1 id="AlephDefinizioni-heading1" ng-repeat="defino in definos" class="show-list-numbers-and-dots" style="color:#000000;">{{defino.termine}}</h1>
+    <h4 id="AlephDefinizioni-heading2" ng-repeat="defino in definos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:lighter;font-style:italic;">{{defino.traslitterazione}}</h4>
+    <h2 id="AlephDefinizioni-heading3" ng-repeat="defino in definos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:400;">{{defino.significato}}</h2>
+    <h5 id="AlephDefinizioni-heading4" ng-repeat="defino in definos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:300;">{{defino.grammatica}}</h5>
+    <div id="AlephDefinizioni-markdown1" ng-repeat="defino in definos" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">{{defino.altro}}</p>
+    </div>
+  </ion-content>
+</ion-view>-->
+
+<ion-view title="א - Aleph definizioni" id="page6">
+    <ion-content padding="true" class="has-header">
+      <div class="spacer" style="width: 300px; height: 38px;"></div>
+      <ion-list id="AlephListaNomi-list7">
+        <ion-item class="item-thumbnail-left" id="AlephListaNomi-list-item9" href-inappbrowser="{{defino.id}}">
+          <img src="{{defino.image}}">
+          <p style="white-space:normal;">{{defino.termine}}</p>
+        </ion-item>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 38px;"></div>
+      <div id="AlephDefinizioni-markdown1" class="show-list-numbers-and-dots">
+        <p style="color:#000000;">{{defino.traslitterazione}}</p>
+      </div>
+      <div class="spacer" style="width: 300px; height: 38px;"></div>
+    </ion-content>
+  </ion-view>

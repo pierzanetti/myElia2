@@ -1,0 +1,11 @@
+<ion-view title="ג - Ghimel definizioni" id="page10">
+  <ion-content padding="true" class="has-header">
+    <h1 id="GhimelDefinizioni-heading9" ng-repeat="gdefino in gdefinos" class="show-list-numbers-and-dots" style="color:#000000;">{{gdefino.termine}}</h1>
+    <h4 id="GhimelDefinizioni-heading10" ng-repeat="gdefino in gdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:300;font-style:italic;">{{gdefino.traslitterazione}}</h4>
+    <h2 id="GhimelDefinizioni-heading11" ng-repeat="gdefino in gdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:400;">{{gdefino.significato}}</h2>
+    <h5 id="GhimelDefinizioni-heading12" ng-repeat="gdefino in gdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:300;">{{gdefino.grammatica}}</h5>
+    <div id="GhimelDefinizioni-markdown3" ng-repeat="gdefino in gdefinos" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">{{gdefino.altro}}</p>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,11 @@
+<ion-view title="ב - Beth definizioni" id="page8">
+  <ion-content padding="true" class="has-header">
+    <h1 id="BethDefinizioni-heading5" ng-repeat="bdefino in bdefinos" class="show-list-numbers-and-dots" style="color:#000000;">{{bdefino.termine}}</h1>
+    <h4 id="BethDefinizioni-heading6" ng-repeat="bdefino in bdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:300;font-style:italic;">{{bdefino.traslitterazione}}</h4>
+    <h2 id="BethDefinizioni-heading7" ng-repeat="bdefino in bdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:400;">{{bdefino.significato}}</h2>
+    <h5 id="BethDefinizioni-heading8" ng-repeat="bdefino in bdefinos" class="show-list-numbers-and-dots" style="color:#000000;font-weight:300;">{{bdefino.grammatica}}</h5>
+    <div id="BethDefinizioni-markdown2" ng-repeat="bdefino in bdefinos" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">{{bdefino.altro}}</p>
+    </div>
+  </ion-content>
+</ion-view>
